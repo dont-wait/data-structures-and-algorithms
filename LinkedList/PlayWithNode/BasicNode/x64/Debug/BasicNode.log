@@ -1,0 +1,10 @@
+﻿  Node.cpp
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(24,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(121,11): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(155,11): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(155,11): warning C4566: character represented by universal-character-name '\u1EE7' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(155,11): warning C4566: character represented by universal-character-name '\u1ED9' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(155,11): warning C4566: character represented by universal-character-name '\u1EDB' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(155,11): warning C4566: character represented by universal-character-name '\u1EA5' cannot be represented in the current code page (1252)
+  BasicNode.vcxproj -> D:\data-structures-and-algorithms\LinkedList\PlayWithNode\x64\Debug\BasicNode.exe
