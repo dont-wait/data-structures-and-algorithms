@@ -24,6 +24,9 @@ int deleteAtLast(MyLinkedList& sl);
 void printMenu();
 void main() {
 	int choice;
+	Node* p;
+	Node* q;
+	MyLinkedList sl;
 	do {
 		printMenu();
 		cout << "Vui lòng chọn 0...7: "; cin >> choice;
@@ -33,21 +36,30 @@ void main() {
 			cout << "See you next time<3\n";
 			break;
 		case 1:
-			MyLinkedList sl;
-			initLinkedList();
+			
+			initSNList(sl);
+			cout << "Khởi tạo thành công\n";
 			break;
 		case 2:
-
+			int x;
+			cout << "Mời bạn nhập giá trị: ";
+			cin >> x;
+			p = newNode(x);
 			break;
 		case 3:
+			printLinkedList(sl);
 			break;
 		case 4:
+//			insertAtHead(sl, p);
 			break;
 		case 5:
+	//		insertAtLast(sl, p);
 			break;
 		case 6:
+			//insertAtAfter(sl, q, p);
 			break;
 		case 7:
+			deleteAtHead(sl);
 			break;
 
 		default:
@@ -158,10 +170,6 @@ int isEmpty(MyLinkedList sl) {
 	return sl.headNode == NULL;
 }
 
-void initSNList(MyLinkedList &sl) {
-	sl.headNode = NULL;
-	sl.lastNode = NULL;
-}
 
 void showNode(Node* x) {
 	
@@ -179,6 +187,7 @@ Node* newNode(int x) {
 	return newNode;
 }
 
-void initLinkedList() {
-
+void initSNList(MyLinkedList& sl){	//khởi tạo danh sách liên kết(quản lí đầu và cuối)
+	Node* headNode = NULL;
+	Node* lastNode = NULL;
 }

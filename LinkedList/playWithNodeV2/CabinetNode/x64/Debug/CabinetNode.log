@@ -1,0 +1,3 @@
+﻿  CabinetNode.cpp
+D:\data-structures-and-algorithms\LinkedList\playWithNodeV2\CabinetNode\CabinetNode.cpp(18,11): warning C4101: 'sl': unreferenced local variable
+  CabinetNode.vcxproj -> D:\data-structures-and-algorithms\LinkedList\playWithNodeV2\x64\Debug\CabinetNode.exe
