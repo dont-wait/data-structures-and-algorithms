@@ -1,10 +1,28 @@
 ﻿  Node.cpp
 D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(24,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
-D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(121,11): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
-D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(155,11): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
-D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(155,11): warning C4566: character represented by universal-character-name '\u1EE7' cannot be represented in the current code page (1252)
-D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(155,11): warning C4566: character represented by universal-character-name '\u1ED9' cannot be represented in the current code page (1252)
-D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(155,11): warning C4566: character represented by universal-character-name '\u1EDB' cannot be represented in the current code page (1252)
-D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(155,11): warning C4566: character represented by universal-character-name '\u1EA5' cannot be represented in the current code page (1252)
-  BasicNode.vcxproj -> D:\data-structures-and-algorithms\LinkedList\PlayWithNode\x64\Debug\BasicNode.exe
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(25,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(29,11): warning C4566: character represented by universal-character-name '\u1ECD' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(37,4): error C3861: 'initLinkedList': identifier not found
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(54,12): warning C4566: character represented by universal-character-name '\u1EE2' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(54,12): warning C4566: character represented by universal-character-name '\u1EC6' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(54,12): warning C4566: character represented by universal-character-name '\u1ECC' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(54,12): warning C4566: character represented by universal-character-name '\u1EEA' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(62,10): warning C4566: character represented by universal-character-name '\u1EDF' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(62,10): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(62,10): warning C4566: character represented by universal-character-name '\u1EBF' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(63,10): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(64,10): warning C4566: character represented by universal-character-name '\u1EBF' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(65,10): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(65,10): warning C4566: character represented by universal-character-name '\u1EA7' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(65,10): warning C4566: character represented by universal-character-name '\u1EBF' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(66,10): warning C4566: character represented by universal-character-name '\u1ED1' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(66,10): warning C4566: character represented by universal-character-name '\u1EBF' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(67,10): warning C4566: character represented by universal-character-name '\u1EBF' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(68,10): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(68,10): warning C4566: character represented by universal-character-name '\u1EA7' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(140,11): warning C4566: character represented by universal-character-name '\u1ED7' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(174,11): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(174,11): warning C4566: character represented by universal-character-name '\u1EE7' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(174,11): warning C4566: character represented by universal-character-name '\u1ED9' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(174,11): warning C4566: character represented by universal-character-name '\u1EDB' cannot be represented in the current code page (1252)
+D:\data-structures-and-algorithms\LinkedList\PlayWithNode\BasicNode\Node.cpp(174,11): warning C4566: character represented by universal-character-name '\u1EA5' cannot be represented in the current code page (1252)

@@ -21,26 +21,57 @@ int insertAtLast(MyLinkedList& sl, Node* p);
 int insertAtAfter(MyLinkedList& sl, Node* q, Node* p);	//chèn p sau q
 int deleteAtHead(MyLinkedList& sl);
 int deleteAtLast(MyLinkedList& sl);
+void printMenu();
 void main() {
-	MyLinkedList sl;
-	initSNList(sl);
+	int choice;
+	do {
+		printMenu();
+		cout << "Vui lòng chọn 0...7: "; cin >> choice;
+		switch (choice)
+		{
+		case 0:
+			cout << "See you next time<3\n";
+			break;
+		case 1:
+			MyLinkedList sl;
+			initLinkedList();
+			break;
+		case 2:
 
-	insertAtLast(sl, newNode(5));
-	insertAtLast(sl, newNode(10));
-	insertAtLast(sl, newNode(15));
-	insertAtLast(sl, newNode(20));
-	insertAtHead(sl, newNode(0));
-	cout << "Test Case #1:\n";
-	printLinkedList(sl);
-	
-	cout << "Test Case #2:\n";
-	deleteAtHead(sl);
-	printLinkedList(sl);
+			break;
+		case 3:
+			break;
+		case 4:
+			break;
+		case 5:
+			break;
+		case 6:
+			break;
+		case 7:
+			break;
 
-	cout << "Test Case #3:\n";
-	deleteAtLast(sl);
-	printLinkedList(sl);
+		default:
+			cout << "KHÔNG HỢP LỆ! VUI LÒNG CHỌN TỪ 0...7\n";
+			break;
+		}
+	} while (choice != 0);
 }
+void printMenu() {
+	cout << "Welcome you to Node Helper\n";
+	cout << "Please choose a option you want\n";
+	cout << "1.Khởi tạo danh sách liên kết\n";
+	cout << "2.Tạo 1 node\n";
+	cout << "3.In danh sách liên kết\n";
+	cout << "4.Chèn đầu danh sách liên kết\n";
+	cout << "5.Chèn cuối danh sách liên kết\n";
+	cout << "6.Chèn p sau q danh sách liên kết\n";
+	cout << "7.Xoá Node đầu\n";
+	cout << "0.Thoát\n";
+
+	cout << "Udataing~~~\n";
+
+}
+
 int deleteAtLast(MyLinkedList& sl) {
 	Node* p = new Node();
 	Node* q = new Node();
