@@ -17,24 +17,41 @@ public class Main {
 //        myStack.pop();
 //        myStack.show();
 
-        MyLinkedListStack StackList = new MyLinkedListStack();  //FILO  //LIFO
-        StackList.push(0);                                //First-In-Last-Out
-        StackList.push(5);                                //Last-In-First-Out
-        StackList.push(10);
-        StackList.push(15);
-        StackList.show();
+//        MyLinkedListStack StackList = new MyLinkedListStack();  //FILO  //LIFO
+//        StackList.push(0);                                //First-In-Last-Out
+//        StackList.show();
+//        StackList.push(5);                                //Last-In-First-Out
+//        StackList.show();
+//        StackList.push(10);
+//        StackList.show();
+//        StackList.push(15);
+//        StackList.show();
+//
+//        StackList.pop();
+//        StackList.show();
+//
+//        StackList.pop();
+//        StackList.show();
+//
+//        StackList.pop();
+//        StackList.show();
+//
+//        StackList.pop();
+//        StackList.show();
+//
+//        StackList.pop();
+//        StackList.show();
+            MyLinkedListQueue queue = new MyLinkedListQueue();
 
-        StackList.pop();
-        StackList.show();
+            queue.push(1);
+            queue.push(2);
+            queue.push(3);
+            queue.show();
 
-        StackList.pop();
-        StackList.show();
-
-        StackList.pop();
-        StackList.show();
-
-        StackList.pop();
-        StackList.show();
+        System.out.println(queue.pop());
+        System.out.println(queue.pop());
+        System.out.println(queue.pop());
+        System.out.println(queue.pop());
 
     }
 }
